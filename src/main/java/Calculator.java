@@ -12,6 +12,12 @@ public class Calculator {
 		return valueA * valueB;
 	}
 
+	/**
+	 *
+	 * @param valueA Divided
+	 * @param valueB Divider
+	 * @return Division results (0 if dividing by 0)
+	 */
 	public int divide(int valueA, int valueB) {
 		try {
 			return valueA / valueB;
