@@ -17,21 +17,21 @@ class CalculatorTest {
 
     @org.junit.jupiter.api.Test
     public void testAdd(){
-        int a = 2;
-        int b = 3;
+        int valueA = 2;
+        int valueB = 3;
 
         Calculator calc = new Calculator();
-        int actual = calc.add(a,b);
+        int actual = calc.add(valueA,valueB);
 
         assertEquals(5, actual);
     }
     @org.junit.jupiter.api.Test
     public void testSub(){
-        int a = 2;
-        int b = 3;
+        int valueA = 2;
+        int valueB = 3;
 
         Calculator calc = new Calculator();
-        int actual = calc.subtract(a,b);
+        int actual = calc.subtract(valueA,valueB);
 
         assertEquals(-1, actual);
     }

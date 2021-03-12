@@ -1,9 +1,9 @@
 public class Calculator {
 
-    public int add(int a, int b) {
-        return a+b;
+    public int add(int valueA, int valueB) {
+        return valueA+valueB;
     }
-    public int subtract(int a, int b) {
-        return a-b;
+    public int subtract(int valueA, int valueB) {
+        return valueA-valueB;
     }
 }
