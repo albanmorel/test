@@ -15,7 +15,7 @@ class CalculatorTest {
 
     }
 
-    @Test
+    @org.junit.jupiter.api.Test
     public void testAdd(){
         int a = 2;
         int b = 3;
@@ -25,7 +25,7 @@ class CalculatorTest {
 
         assertEquals(5, actual);
     }
-    @Test
+    @org.junit.jupiter.api.Test
     public void testSub(){
         int a = 2;
         int b = 3;
